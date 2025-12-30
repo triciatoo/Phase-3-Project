@@ -12,7 +12,7 @@ Problem: Customers cancel service unexpectedly, leading to revenue loss
 
 Objective: Predict customer churn so SyriaTel can intervene before customers leave
 
-3. Data
+3. Data Understanding
 
 Source: Kaggle – Telecom Customer Churn Dataset
 
@@ -35,7 +35,7 @@ Iterative classification models
 
 Model evaluation using recall, precision, and F1-score
 
-5. Model Evaluation
+5. Modeling and Model Evaluation
 
 Focused on recall for churners to minimize missed at-risk customers
 
@@ -61,27 +61,6 @@ Review and optimize international plan offerings
 
 Integrate churn risk scores into CRM systems for targeted retention efforts
 
-8. Repository Structure
+8. Conclusion
 
-├── data/                # Ignored (raw data files)
-├── index.ipynb          # Main analysis notebook
-├── README.md            # Project overview
-├── .gitignore           # Ignored files
-
-9. How to Run the Project
-
-Clone the repository
-
-Install required dependencies
-
-Download the dataset from Kaggle
-
-Run index.ipynb from top to bottom
-
-10. Limitations & Future Work
-
-Dataset represents historical behavior and may not capture future trends
-
-Model performance may change as customer behavior evolves
-
-Future work could include cost-sensitive modeling and real-time deployment
+This project demonstrates how a classification model can help SyriaTel proactively address customer churn. By focusing on business-relevant metrics and interpretable insights, the model provides actionable value for retention teams and supports data-driven decision-making.
